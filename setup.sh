@@ -13,6 +13,7 @@
 ###############################################################################
 
 #sudo apt-get -y install fortune-mod
+# yes | sudo apt-get install fortune-mod
 
 pkg install git
 
@@ -27,11 +28,11 @@ pkg install r-base \
             make \
             clang \
             gcc-7 \
-            libgfortran \
-            openssl-dev \
-            libcurl-dev \
-            libicu-dev \
-            libxml2-dev
+            libgfortran3 \
+            openssl \
+            libcurl \
+            libicu \
+            libxml2
 
 # compiler configuration
 #setupclang-gfort-8
