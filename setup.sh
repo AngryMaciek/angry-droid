@@ -34,10 +34,20 @@ pkg install r-base \
             libicu \
             libxml2
 
-# compiler configuration
-#setupclang-gfort-8
+# r-base 3.6.1-4
+# make 4.3-1
+# clang 9.0.1-1
+# gcc-7 7.4.0-2
+# libgfortran3 6.5.0-2
+# openssl ???
+# libcurl ???
+# libicu 65.1
+# libxml 2.9.10
 
-# Rscript -e 'install.packages("maxLik")'
+# compiler configuration
+setupclang-gfort-7
+
+Rscript -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
 # R
 # split tidyverse to separae packages?
 
