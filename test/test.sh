@@ -2,7 +2,7 @@
 
 ###############################################################################
 #
-#   [TITLE, DESCRIPTION]
+#   UNIX shell master test script
 #
 #   AUTHOR: Maciej_Bak
 #   AFFILIATION: Swiss_Institute_of_Bioinformatics
