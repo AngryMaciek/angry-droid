@@ -47,7 +47,7 @@ pkg install r-base \
 # compiler configuration
 setupclang-gfort-7
 
-Rscript -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
+R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
 # R
 # split tidyverse to separae packages?
 
