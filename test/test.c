@@ -1,24 +1,21 @@
 /*
 ###############################################################################
 #
-#   [TITLE, DESCRIPTION]
+#   C test code
 #
 #   AUTHOR: Maciej_Bak
 #   AFFILIATION: Swiss_Institute_of_Bioinformatics
 #   CONTACT: wsciekly.maciek@gmail.com
 #   CREATED: 05-03-2020
 #   LICENSE: GPL_v3.0
-#   USAGE: ...
 #
 ###############################################################################
 */
 
 #include <stdlib.h>
 #include <stdio.h>
-
-// [DESCRIPTION]
-void hello_world(int n){
-}
+#include <string.h>
+#include <time.h>
 
 // MAIN
 int main(void){
