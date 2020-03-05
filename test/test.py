@@ -18,7 +18,7 @@ import time
 import logging
 import argparse
 import random
-import pyyaml
+import yaml
 import jinja2
 import numpy
 import scipy
