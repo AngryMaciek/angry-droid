@@ -1,18 +1,20 @@
 # Computational Droid
+*Maciej Bak*  
+*Swiss Institute of Bioinformatics*
 
 Description.
 
 ## Instructions
 
-### Install Termux
+### 1. Install Termux
 
-### Create an exchange directory
+### 2. Create an exchange directory
 
-### Install the software
+### 3. Install the software
 
-### Clone this repository
+### 4. Clone this repository
 
-### Run tests
+### 5. Run tests
 
 ## License
 
