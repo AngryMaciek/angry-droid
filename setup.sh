@@ -34,9 +34,8 @@ pkg install r-base \
             libicu \
             libxml2 \
             python \
-            scipy
 
-# r-base 3.6.1-4
+# r-base=3.6.1-4
 # make 4.3-1
 # clang 9.0.1-1
 # gcc-7 7.4.0-2
@@ -45,16 +44,23 @@ pkg install r-base \
 # libcurl ???
 # libicu 65.1
 # libxml 2.9.10
+# python 3.8.2
+# scipy 1.3.0-1
 
 export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 
 # compiler configuration
 setupclang-gfort-7
 
+pip install \
+panads==1.0.0 \
+#scikit-learn==0.22.2 \
+#statsmodels==0.11.1 \
+#Keras==2.3.1
+
 #R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
-# R
-# split tidyverse to separae packages?
 
-# apt install python, R, scipy
+# Rscript
+# scipy
 
-# pip install pandas sklearn, keras, statsmodels
+apt clean
