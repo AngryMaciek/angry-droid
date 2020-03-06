@@ -12,19 +12,17 @@
 #
 ###############################################################################
 
-#sudo apt-get -y install fortune-mod
-# yes | sudo apt-get install fortune-mod
 
-pkg install git
+yes | pkg install git
 
 
-pkg install curl gnupg
+yes | pkg install curl gnupg
 mkdir -p "$PREFIX/etc/apt/sources.list.d/"
 echo "deb https://its-pointless.github.io/files/ termux extras" \
 > "$PREFIX/etc/apt/sources.list.d/pointless.list"
 curl "https://its-pointless.github.io/pointless.gpg" | apt-key add
 
-pkg install r-base \
+yes | pkg install r-base \
             make \
             clang \
             gcc-7 \
@@ -47,7 +45,7 @@ pkg install r-base \
 # python 3.8.2
 # scipy 1.3.0-1
 
-export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
+#export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 
 # compiler configuration
 setupclang-gfort-7
