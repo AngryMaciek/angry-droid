@@ -53,7 +53,7 @@ export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 setupclang-gfort-7
 
 pip install \
-panads==1.0.1 \
+pandas==1.0.1 \
 scikit-learn==0.22.2 \
 statsmodels==0.11.1 \
 #Keras==2.3.1
