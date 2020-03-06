@@ -34,25 +34,25 @@ yes | pkg install \
   clang=9.0.1-1 \
   gcc-7=7.4.0-2 \
   libgfortran3=6.5.0-2 \
+  libgfortran5=8.3.0-3 \
   openssl \
   libcurl \
   libicu=65.1 \
   libxml2=2.9.10 \
   python=3.8.2 \
-
-# scipy 1.3.0-1
+  scipy=1.3.0-1
 
 #export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 
 # compiler configuration
 # setupclang-gfort-7
 
-pip install \
-numpy \
+#pip install \
 #statsmodels==0.11.1 \
+#pandas==1.0.1 \
 #scikit-learn==0.22.1 \
 #Keras==2.3.1
-#pandas==1.0.1 \
+
 
 #R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
 
