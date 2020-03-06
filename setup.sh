@@ -32,7 +32,9 @@ pkg install r-base \
             openssl \
             libcurl \
             libicu \
-            libxml2
+            libxml2 \
+            python \
+            scipy
 
 # r-base 3.6.1-4
 # make 4.3-1
@@ -44,10 +46,12 @@ pkg install r-base \
 # libicu 65.1
 # libxml 2.9.10
 
+export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
+
 # compiler configuration
 setupclang-gfort-7
 
-R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
+#R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
 # R
 # split tidyverse to separae packages?
 
