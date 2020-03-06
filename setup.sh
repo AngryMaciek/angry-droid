@@ -22,6 +22,8 @@ echo "deb https://its-pointless.github.io/files/ termux extras" \
 > "$PREFIX/etc/apt/sources.list.d/pointless.list"
 curl "https://its-pointless.github.io/pointless.gpg" | apt-key add
 
+apt-get update
+
 yes | pkg install r-base \
             make \
             clang \
@@ -48,7 +50,7 @@ yes | pkg install r-base \
 #export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 
 # compiler configuration
-setupclang-gfort-7
+# setupclang-gfort-7
 
 pip install \
 pandas==1.0.1 \
