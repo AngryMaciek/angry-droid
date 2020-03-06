@@ -33,7 +33,6 @@ yes | pkg install \
   make=4.3-1 \
   clang=9.0.1-1 \
   gcc-9=9.2.0-1 \
-  libgfortran \
   openssl=1.1.1d-1 \
   libcurl=7.68.0 \
   libicu=65.1 \
@@ -44,7 +43,7 @@ yes | pkg install \
 #export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 
 # compiler configuration
-# setupclang-gfort-7
+#setupclang-gfort-9
 
 #pip install \
 #statsmodels==0.11.1 \
