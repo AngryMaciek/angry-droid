@@ -23,7 +23,8 @@ yes | pkg install \
 mkdir -p "$PREFIX/etc/apt/sources.list.d/"
 echo "deb https://its-pointless.github.io/files/ termux extras" \
 > "$PREFIX/etc/apt/sources.list.d/pointless.list"
-curl "https://its-pointless.github.io/pointless.gpg" | apt-key add
+curl "https://its-pointless.github.io/pointless.gpg" \
+| apt-key add
 
 apt-get update
 
@@ -48,8 +49,8 @@ yes | pkg install \
 
 pip install \
 numpy \
-statsmodels==0.11.1 \
-scikit-learn==0.22.1 \
+#statsmodels==0.11.1 \
+#scikit-learn==0.22.1 \
 #Keras==2.3.1
 #pandas==1.0.1 \
 
