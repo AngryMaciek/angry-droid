@@ -21,7 +21,7 @@ yes | pkg install \
   gnupg=2.2.19
 
 mkdir -p "$PREFIX/etc/apt/sources.list.d/"
-echo "deb https://its-pointless.github.io/files/ termux extras" \
+echo "deb https://its-pointless.github.io/files/24 termux extras" \
 > "$PREFIX/etc/apt/sources.list.d/pointless.list"
 curl "https://its-pointless.github.io/pointless.gpg" \
 | apt-key add
@@ -35,8 +35,8 @@ yes | pkg install \
   gcc-7=7.4.0-2 \
   libgfortran3=6.5.0-2 \
   libgfortran5=8.3.0-3 \
-  openssl \
-  libcurl \
+  openssl=1.1.1d-1 \
+  libcurl=7.68.0 \
   libicu=65.1 \
   libxml2=2.9.10 \
   python=3.8.2 \
@@ -56,6 +56,11 @@ yes | pkg install \
 
 #R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
 
+
+
+
+
 # Rscript
+# scipy
 
 apt clean
