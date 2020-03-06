@@ -53,9 +53,9 @@ export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 setupclang-gfort-7
 
 pip install \
-panads==1.0.0 \
-#scikit-learn==0.22.2 \
-#statsmodels==0.11.1 \
+panads==1.0.1 \
+scikit-learn==0.22.2 \
+statsmodels==0.11.1 \
 #Keras==2.3.1
 
 #R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
