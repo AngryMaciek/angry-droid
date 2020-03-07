@@ -54,6 +54,6 @@ R -e "install.packages('numDeriv', repos='http://cran.us.r-project.org')"
 pip install \
 cython==0.29.15 \
 pandas==1.0.1 \
-scikit-learn==0.22.1 \
+#scikit-learn==0.22.1 \
 
 apt clean
