@@ -37,12 +37,8 @@ yes | pkg install \
   libcurl=7.68.0 \
   libicu=65.1 \
   libxml2=2.9.10 \
-  libhdf5=1.10.6 \
-  pkg-config=0.29.2 \
   python=3.8.2 \
   scipy=1.4.1
-
-#export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 
 # compiler configuration
 #setupclang-gfort-9
@@ -52,13 +48,11 @@ yes | pkg install \
 #pandas==1.0.1 \
 #scikit-learn==0.22.1 \
 
-#libgfortran3=6.5.0-2 \
-
 R -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
-R -e "install.packages('statmod', repos='http://cran.us.r-project.org')"
-R -e "install.packages('matrixStats', repos='http://cran.us.r-project.org')"
-R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
-R -e "install.packages('numDeriv', repos='http://cran.us.r-project.org')"
+#R -e "install.packages('statmod', repos='http://cran.us.r-project.org')"
+#R -e "install.packages('matrixStats', repos='http://cran.us.r-project.org')"
+#R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
+#R -e "install.packages('numDeriv', repos='http://cran.us.r-project.org')"
 R -e "install.packages('tidyverse', repos='http://cran.us.r-project.org')"
 
 apt clean
