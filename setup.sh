@@ -38,7 +38,8 @@ yes | pkg install \
   libicu=65.1 \
   libxml2=2.9.10 \
   python=3.8.2 \
-  scipy=1.4.1
+  scipy=1.4.1 \
+  r-cran-tidyverse=1.3.0
 
 # compiler configuration
 #setupclang-gfort-9
@@ -48,11 +49,10 @@ yes | pkg install \
 #pandas==1.0.1 \
 #scikit-learn==0.22.1 \
 
-R -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
+#R -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
 #R -e "install.packages('statmod', repos='http://cran.us.r-project.org')"
 #R -e "install.packages('matrixStats', repos='http://cran.us.r-project.org')"
 #R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
 #R -e "install.packages('numDeriv', repos='http://cran.us.r-project.org')"
-R -e "install.packages('tidyverse', repos='http://cran.us.r-project.org')"
 
 apt clean
