@@ -44,15 +44,15 @@ yes | pkg install \
 # compiler configuration
 #setupclang-gfort-9
 
-#pip install \
-#cython==0.29.15 \
-#pandas==1.0.1 \
-#scikit-learn==0.22.1 \
+pip install \
+cython==0.29.15 \
+pandas==1.0.1 \
+scikit-learn==0.22.1 \
 
-#R -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
-#R -e "install.packages('statmod', repos='http://cran.us.r-project.org')"
-#R -e "install.packages('matrixStats', repos='http://cran.us.r-project.org')"
-#R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
-#R -e "install.packages('numDeriv', repos='http://cran.us.r-project.org')"
+R -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
+R -e "install.packages('statmod', repos='http://cran.us.r-project.org')"
+R -e "install.packages('matrixStats', repos='http://cran.us.r-project.org')"
+R -e "install.packages('maxLik', repos='http://cran.us.r-project.org')"
+R -e "install.packages('numDeriv', repos='http://cran.us.r-project.org')"
 
 apt clean
