@@ -28,7 +28,7 @@ curl "https://its-pointless.github.io/pointless.gpg" \
 
 apt-get update
 
-yes | pkg install \
+pkg install -y \
   r-base=3.6.2 \
   make=4.3-1 \
   clang=9.0.1-1 \
@@ -56,7 +56,6 @@ cython==0.29.15 \
 pandas==1.0.1 \
 
 pip install git+https://github.com/jrgriffiniii/joblib.git@issues-825-jrgriffiniii-no-sem-support
-
-#scikit-learn==0.22.1 \
+pip install scikit-learn==0.22.1 \
 
 apt clean
