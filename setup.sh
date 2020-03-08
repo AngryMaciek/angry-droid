@@ -13,10 +13,10 @@
 ###############################################################################
 
 
-yes | pkg install \
+pkg install -y \
   git=2.25.1
 
-yes | pkg install \
+pkg install -y \
   curl=7.68.0 \
   gnupg=2.2.19
 
@@ -54,6 +54,9 @@ R -e "install.packages('numDeriv', repos='http://cran.us.r-project.org')"
 pip install \
 cython==0.29.15 \
 pandas==1.0.1 \
+
+pip install git+https://github.com/jrgriffiniii/joblib.git@issues-825-jrgriffiniii-no-sem-support
+
 #scikit-learn==0.22.1 \
 
 apt clean
