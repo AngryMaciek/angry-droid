@@ -16,14 +16,14 @@ echo "######### BASH TEST STARTED #########"
 date
 
 echo "######### C CODE COMPILATION ########"
-gcc ComputationalDroid/test/test.c -o ComputationalDroid/test/ctest.exe
+gcc-9 ComputationalDroid/test/test.c -o ComputationalDroid/test/ctest.exe
 
 echo "######### C CODE EXECUTION ##########"
 chmod +x ComputationalDroid/test/ctest.exe
 ComputationalDroid/test/ctest.exe
 
 echo "######### C++ CODE COMPILATION ######"
-gcc ComputationalDroid/test/test.cpp -o ComputationalDroid/test/cpptest.exe
+g++ ComputationalDroid/test/test.cpp -o ComputationalDroid/test/cpptest.exe
 
 echo "######### C++ CODE EXECUTION ########"
 chmod +x ComputationalDroid/test/cpptest.exe
