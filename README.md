@@ -2,21 +2,29 @@
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
-Description.
+Short tutorial on how to turn your Android smartphone ( :iphone:) into a platform for scientific computing ( :robot:). 
+ No root required.  
+ 
+ The following commands have been assembled together from various sources over the internet. Most notably I should mention the repositories of [its-pointless](https://github.com/its-pointless) and a [blog post](https://conr.ca/post/installing-r-on-android-via-termux/) by Conor Anderson.
 
 ## Instructions
 
 ### 1. Install Termux
 
-#   https://termux.com/
-#   https://play.google.com/store/apps/details?id=com.termux:
+"[Termux][1] is an Android terminal emulator and Linux environment application that works directly with no rooting or setup required." 
+ Start with installing the app on your smartphone, preferably from [Google Play][2].
 
 ### 2. Create an exchange directory
 
-#   $ termux-setup-storage
-#   https://android.stackexchange.com/questions/166538/where-is-the-folder-that-termux-defaults-to
+In order to exchange files between Termux and the
 
-#   $ mkdir storage/shared/Termux
+```bash
+termux-setup-storage
+```
+
+https://android.stackexchange.com/questions/166538/where-is-the-folder-that-termux-defaults-to
+
+mkdir storage/shared/Termux
 
 ### 3. Clone this repository
 
@@ -47,3 +55,6 @@ cd ComputationalDroid
 ## License
 
 GPL version 3
+
+[1]: https://termux.com/
+[2]: https://play.google.com/store/apps/details?id=com.termux
