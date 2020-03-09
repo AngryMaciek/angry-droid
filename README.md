@@ -2,7 +2,7 @@
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
-Short tutorial on how to turn your Android smartphone ( :iphone:) into a platform for scientific computing ( :robot:).  
+Short tutorial on how to turn your Android smartphone ( :iphone:) into a platform for scientific computing ( :robot:)  
 No root required.  
 
 The droid will have: 
@@ -67,7 +67,7 @@ bash ComputationalDroid/test/test.sh
 
 ## Testing
 
-This repository has been tested on Samsung Galaxy A5 2017 (SM-A520F);  Android 8.0.0; Packages CPU architecture: aarch64
+This repository has been tested on Samsung Galaxy A5 2017 (SM-A520F);  Android 8.0.0; Packages CPU architecture: aarch64.
 
 ## License
 
