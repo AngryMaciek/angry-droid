@@ -3,8 +3,15 @@
 *Swiss Institute of Bioinformatics*
 
 Short tutorial on how to turn your Android smartphone ( :iphone:) into a platform for scientific computing ( :robot:).  
- No root required.  
- 
+No root required.  
+
+The droid will have: 
+* [GNU bash](https://www.gnu.org/software/bash/)
+* [GNU make](https://www.gnu.org/software/make/)
+* C and C++ compilers: [gcc](https://gcc.gnu.org/) and [clang](https://clang.llvm.org/)
+* [Python](https://www.python.org/) interpreter as well as some useful packages: [numpy](https://numpy.org/), [scipy](https://www.scipy.org/), [pandas](https://pandas.pydata.org/), [scikit-learn](https://scikit-learn.org/stable/)
+* [R](https://www.r-project.org/) interpreter as well as some useful packages: [statmod](https://cran.r-project.org/web/packages/statmod/index.html), [numDeriv](https://cran.r-project.org/web/packages/numDeriv/index.html), [maxLik](https://cran.r-project.org/web/packages/maxLik/index.html), [tidyverse](https://www.tidyverse.org/)  
+
  The following commands have been assembled together from various sources over the internet. Most notably I should mention the repositories of [its-pointless](https://github.com/its-pointless) and a [blog post](https://conr.ca/post/installing-r-on-android-via-termux/) by Conor Anderson.
 
 ## Instructions
@@ -45,28 +52,22 @@ git clone https://github.com/AngryMaciek/ComputationalDroid
 
 ### 4. Install the software
 
-https://conr.ca/post/installing-r-on-android-via-termux/
-
-cd ComputationalDroid
-
+In order to install software specified on top please type:
+```bash
+bash ComputationalDroid/setup.sh
+```
 
 ### 5. Run tests
 
-#   5) Connect the android device to the computer and copy:
-#     * (this script)
-#     * "src" directory which contains all the source code
-#   into the directory created at (3)
-#
-#   6) Run all the simualtions by executing this script from Termux:
-#   $ bash storage/shared/Termux/android_simulations.sh
-#
-#   7) Whole directory with the binaries, source and results
-#   will be copied back to the exchange directory:
-#   storage/shared/Termux/simulations
+If no errors were raised during the installation you are good to go!  
+You may test the compilers, interpreters and packages by running:
+```bash
+bash ComputationalDroid/test/test.sh
+```
 
 ## Testing
 
-This repository has been tested on...
+This repository has been tested on Samsung Galaxy A5 2017 (SM-A520F);  Android 8.0.0; Packages CPU architecture: aarch64
 
 ## License
 
