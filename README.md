@@ -71,7 +71,7 @@ This repository has been tested on Samsung Galaxy A5 2017 (SM-A520F);  Android 8
 
 ## License
 
-GPL version 3
+MIT License
 
 [1]: https://termux.com/
 [2]: https://play.google.com/store/apps/details?id=com.termux
