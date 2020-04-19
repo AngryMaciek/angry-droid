@@ -11,6 +11,9 @@ The droid will have:
 * C and C++ compilers: [gcc](https://gcc.gnu.org/) and [clang](https://clang.llvm.org/)
 * [Python](https://www.python.org/) interpreter as well as some useful packages: [numpy](https://numpy.org/), [scipy](https://www.scipy.org/), [pandas](https://pandas.pydata.org/), [scikit-learn](https://scikit-learn.org/stable/)
 * [R](https://www.r-project.org/) interpreter as well as some useful packages: [statmod](https://cran.r-project.org/web/packages/statmod/index.html), [numDeriv](https://cran.r-project.org/web/packages/numDeriv/index.html), [maxLik](https://cran.r-project.org/web/packages/maxLik/index.html), [tidyverse](https://www.tidyverse.org/)  
+* [Vim](https://www.vim.org/) text editor
+* [Cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/) template engine
+* [Snakemake](https://snakemake.readthedocs.io/en/stable/) workflow management system
 
  The following commands have been assembled together from various sources over the internet. Most notably I should mention the repositories of [its-pointless](https://github.com/its-pointless) and a [blog post](https://conr.ca/post/installing-r-on-android-via-termux/) by Conor Anderson.
 
@@ -42,7 +45,7 @@ For this and the next step we assume that the smartphone has internet access.
 
 Open Termux and install `git` with the following command:
 ```bash
-pkg install -y git=2.25.1
+pkg install -y git
 ```
 
 After a successful installation please clone the repository:
