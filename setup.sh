@@ -39,12 +39,12 @@ setupclang-gfort-9
 
 # these packages HAVE TO be installed with apt:
 pkg install -y \
-  make=4.3-1 \
-  python=3.8.2 \
-  scipy=1.4.1 \
-  r-base=3.6.2 \
-  r-cran-tidyverse=1.3.0 \
-  vim=8.2
+  make \
+  python \
+  scipy \
+  r-base \
+  r-cran-tidyverse \
+  vim
 
 # install R packages inside R
 R -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
