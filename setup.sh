@@ -41,7 +41,8 @@ pkg install -y \
   python=3.8.2 \
   scipy=1.4.1 \
   r-base=3.6.2 \
-  r-cran-tidyverse=1.3.0
+  r-cran-tidyverse=1.3.0 \
+  vim=8.2
 
 # install R packages inside R
 R -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
@@ -56,6 +57,8 @@ pyyaml==5.3 \
 jinja2==2.11.1 \
 cython==0.29.15 \
 pandas==1.0.1 \
+cookiecutter==1.7.0
+pip3 install snakemake==5.10.0
 
 # scikit-learn requuires joblib package
 # Termux on Android does not have a native implementation of semaphores
