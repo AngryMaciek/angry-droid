@@ -12,9 +12,11 @@
 #
 ###############################################################################
 
+# software versions for pkg are constantly updated, cannot be specified 
+
 pkg install -y \
-  curl=7.68.0 \
-  gnupg=2.2.19
+  curl \
+  gnupg
 
 # Follow the instruction @ its-pointless repo:
 # https://github.com/its-pointless/gcc_termux
@@ -28,8 +30,8 @@ pkg update -y
 
 # install clang and gcc compilers
 pkg install -y \
-  clang=9.0.1-1 \
-  gcc-9=9.2.0-1 \
+  clang \
+  gcc-9 \
 
 # compilers configuration
 setupgcc-9
