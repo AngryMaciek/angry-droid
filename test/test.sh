@@ -14,6 +14,11 @@
 
 echo "######### BASH TEST STARTED #########"
 date
+curl --version | head -n 1
+make --version | head -n 1
+vim --version | head -n 1
+cookiecutter --version
+echo "Snakemake:" $(snakemake --version)
 
 echo "######### C CODE COMPILATION ########"
 gcc-9 ComputationalDroid/test/test.c -o ComputationalDroid/test/ctest.exe
