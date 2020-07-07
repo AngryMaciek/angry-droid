@@ -1,4 +1,4 @@
-# Computational Droid
+# Angry Computational Droid
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
@@ -50,14 +50,14 @@ pkg install -y git
 
 After a successful installation please clone the repository:
 ```bash
-git clone https://github.com/AngryMaciek/ComputationalDroid
+git clone https://github.com/AngryMaciek/angry-computational-droid
 ```
 
 ### 4. Install the software
 
 In order to install software specified on top please type:
 ```bash
-bash ComputationalDroid/setup.sh
+bash angry-computational-droid/setup.sh
 ```
 
 ### 5. Run tests
@@ -65,7 +65,7 @@ bash ComputationalDroid/setup.sh
 If no errors were raised during the installation you are good to go!  
 You may test the compilers, interpreters and packages by running:
 ```bash
-bash ComputationalDroid/test/test.sh
+bash angry-computational-droid/test/test.sh
 ```
 
 ## Testing
