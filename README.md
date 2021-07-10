@@ -15,9 +15,17 @@ The droid will have:
 * [Cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/) template engine
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/) workflow management system
 
- The following commands have been assembled together from various sources over the internet. Most notably I should mention the repositories of [its-pointless](https://github.com/its-pointless) and a [blog post](https://conr.ca/post/installing-r-on-android-via-termux/) by Conor Anderson.
+</br>
+<p align="center">
+  <img src='pic.jpeg' align="center" height="300" />
+  </br>
+  <i>Fancy runing some pipelines from your mobile?</i>
+</p>
+</br>
 
 ## Instructions
+
+The following commands have been assembled together from various sources over the internet. Most notably I should mention the repositories of [its-pointless](https://github.com/its-pointless) and a [blog post](https://conr.ca/post/installing-r-on-android-via-termux/) by Conor Anderson.
 
 ### 1. Install Termux
 
