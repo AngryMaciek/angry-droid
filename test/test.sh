@@ -21,21 +21,21 @@ cookiecutter --version
 echo "Snakemake:" $(snakemake --version)
 
 echo "######### C CODE COMPILATION ########"
-gcc-9 ComputationalDroid/test/test.c -o ComputationalDroid/test/ctest.exe
+gcc-9 angry-droid/test/test.c -o angry-droid/test/ctest.exe
 
 echo "######### C CODE EXECUTION ##########"
-chmod +x ComputationalDroid/test/ctest.exe
-ComputationalDroid/test/ctest.exe
+chmod +x angry-droid/test/ctest.exe
+angry-droid/test/ctest.exe
 
 echo "######### C++ CODE COMPILATION ######"
-g++ ComputationalDroid/test/test.cpp -o ComputationalDroid/test/cpptest.exe
+g++ angry-droid/test/test.cpp -o angry-droid/test/cpptest.exe
 
 echo "######### C++ CODE EXECUTION ########"
-chmod +x ComputationalDroid/test/cpptest.exe
-ComputationalDroid/test/cpptest.exe
+chmod +x angry-droid/test/cpptest.exe
+angry-droid/test/cpptest.exe
 
 echo "######### PYTHON SCRIPT TEST ########"
-python ComputationalDroid/test/test.py
+python angry-droid/test/test.py
 
 echo "######### R SCRIPT TEST #############"
-Rscript ComputationalDroid/test/test.R
+Rscript angry-droid/test/test.R
